@@ -5,7 +5,7 @@ Potential update 1: identify all combos in a set of cards
 Potential update 2: identify all potential combos given ignoring degeneracy.  
 
 """
-from properties import Card, Cards, Deck
+from cards_properties import Card, Cards, Deck
 import itertools
 
 class ComboIdentifier:
